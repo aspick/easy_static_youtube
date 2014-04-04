@@ -27,7 +27,7 @@ module EasyStaticYoutube
 		return params['v']
 	end
 
-	def self.get_palylist_metadata(playlist_id)
+	def self.get_playlist_metadata(playlist_id)
 		baseURL = 'https://www.googleapis.com/youtube/v3/playlists'
 		requestURL = "#{baseURL}?id=#{playlist_id}&key=#{@@api_key}&part=snippet&fields=items(id,snippet)"
 		response = Net::HTTP.get_response(URI.parse(requestURL))
