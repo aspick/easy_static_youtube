@@ -47,6 +47,3 @@ module EasyStaticYoutube
 
 end
 
-EasyStaticYoutube.api_key = 'AIzaSyAGCnmsWIzwzUhrSTuKJV79vow_-q5bJes'
-puts EasyStaticYoutube.get_palylist_metadata('PLPAkf8CmoCaycpEqwyp3Zz99ZTiElFVEP')
-
