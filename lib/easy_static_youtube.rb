@@ -1,4 +1,4 @@
-# require "easy_static_youtube/version"
+require "easy_static_youtube/version"
 require 'rubygems'
 require 'net/http'
 require 'json'

@@ -1,4 +1,4 @@
-# EasyStaticGoogleMap
+# EasyStaticYoutube
 
 TODO: Write a gem description
 
@@ -6,7 +6,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'easy_static_google_map'
+    gem 'easy_static_youtube'
 
 And then execute:
 
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install easy_static_google_map
+    $ gem install easy_static_youtube
 
 ## Usage
 
