@@ -16,5 +16,16 @@ module EasyStaticYoutube
 		return JSON.parse(response.body)["items"].first
 	end
 
+	def self.get_video_id_from_youtube_url(url)
+		query = URI.parse(url).query
+		param_lines = query.split('&')
+		params = {}
+		param_lines.each do |line|
+			kv = line.split('=')
+			params[kv[0]] = kv[1]
+		end
+		return params['v']
+	end
+
 end
 
